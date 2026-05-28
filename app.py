@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("churn_pipeline.pkl")
+model = joblib.load("ChurnPrediction.joblib")
 
 st.title("Customer Churn Prediction")
 

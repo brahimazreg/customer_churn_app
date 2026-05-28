@@ -31,7 +31,7 @@ This project is an end-to-end Machine Learning web application that predicts cus
 customer-churn-app/
 │
 ├── app.py
-├── churn_pipeline.pkl
+├── ChurnPrediction.joblib
 ├── requirements.txt
 ├── README.md
 └── notebook.ipynb
@@ -70,11 +70,10 @@ Target variable:
 
 Example classification report:
 
-| Metric    | Score |
-| --------- | ----- |
-| Precision | 0.92  |
-| Recall    | 0.97  |
-| F1-score  | 0.94  |
+  precision    recall  f1-score   support
+
+     0.83      0.91      0.87      1033
+     0.65      0.48      0.55       374
 
 ---
 
